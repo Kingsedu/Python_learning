@@ -80,3 +80,14 @@
 // x = [13, 15, 20]
 
 // console.log(y)
+
+class User {
+    constructor(age, size) {
+       //
+       this.my_age = age;
+       this.my_size = size;
+    }
+}
+
+const userOne = new User(10, 24)
+console.log(userOne.my_age)
